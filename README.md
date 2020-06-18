@@ -1,15 +1,11 @@
 ![](demo/preview.gif)
 
-# DWM like Swallowing feature for BSPWM
+# WM agnostic swallowing 
 
 # Usage
 ```sh
-swallow [CMD...]
+devour [CMD...]
 ```
-
-# Documentation
-Coming soon. lol.
-
 # FAQ
 ### Your status bar looks cool! What's that!
 ![uniblocks](https://github.com/salman-abedin/uniblocks)
