@@ -1,10 +1,14 @@
 ![](demo/preview.gif)
 
-# WM agnostic swallowing 
+# WM agnostic swallowing feature
+this is a fork of
+[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
+[ronniedroid](https://github.com/ronniedroid)
 
 # Usage
 ```sh
 devour [CMD...]
+launch-devour [FILE...]
 ```
 # FAQ
 ### Your status bar looks cool! What's that!
