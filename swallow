@@ -1,9 +1,0 @@
-#!/usr/bin/env sh
-
-id=$(xdo id)
-# bspc node -g hidden
-xdo hide
-sh -c "$*" >/dev/null 2>&1
-xdo show -r "$id"
-# bspc node any.hidden -g hidden
-# bspc node -f next.local

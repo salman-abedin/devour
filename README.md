@@ -1,22 +1,51 @@
 ![](demo/preview.gif)
 
-# DWM like Swallowing feature for BSPWM
+# WM agnostic swallowing feature for terminal emulators
 
-# Usage
+this is a fork of
+[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
+[ronniedroid](https://github.com/ronniedroid)
+
+## Dependencies
+
+- **xdo**
+
+## Installation
+
 ```sh
-swallow [CMD...]
+git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
-# Documentation
-Coming soon. lol.
+## Usage
 
-# FAQ
-### Your status bar looks cool! What's that!
-![uniblocks](https://github.com/salman-abedin/uniblocks)
-### How are you launching those files and folders so fast!
-![bolt](https://github.com/salman-abedin/bolt)
-### What is this sorcery of a system!
-![magpie](https://github.com/salman-abedin/magpie)
-### You are so jazz! Where can I reach you!
+```sh
+devour [CMD...]
+launch-devour [FILE...]
+```
+
+## Uninstallation
+
+```sh
+sudo make uninstall
+```
+
+## Other Projects
+
+[Bolt](https://github.com/salman-abedin/bolt)
+: The lightning fast workflow creator
+
+[Crystal](https://github.com/salman-abedin/crystal)
+: The transparent setup
+
+[Uniblocks](https://github.com/salman-abedin/uniblocks)
+: The statusbar
+
+[Magpie](https://github.com/salman-abedin/magpie)
+: The dotfiles
+
+[Alfred](https://github.com/salman-abedin/alfred)
+: The scripts
+
+## Contact
+
 SalmanAbedin@disroot.org
-
