@@ -8,7 +8,7 @@ this is a fork of
 
 ## Dependencies
 
-- xdo
+- **xdo**
 
 ## Usage
 
