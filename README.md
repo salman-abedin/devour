@@ -6,18 +6,18 @@ this is a fork of
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
 [ronniedroid](https://github.com/ronniedroid)
 
-# Dependencies
+## Dependencies
 
 - xdo
 
-# Usage
+## Usage
 
 ```sh
 devour [CMD...]
 launch-devour [FILE...]
 ```
 
-# FAQ
+## FAQ
 
 ### Your status bar looks cool! What's that!
 
