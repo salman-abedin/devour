@@ -7,6 +7,11 @@ echo "$*" | grep "\.ar\." && {
   exit
 }
 
+echo "$1" | grep "\.sent$" && {
+   devour sent "$1" &
+   exit
+}
+
 case $(file --mime-type "$*" -bL) in
 
   text/* | inode/x-empty | application/json | application/octet-stream)
