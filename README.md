@@ -19,17 +19,20 @@ devour [CMD...]
 launch-devour [FILE...]
 ```
 
-
 ## Other Projects
 
-[Uniblocks](https://github.com/salman-abedin/uniblocks)
-The statusbar
-
 [Bolt](https://github.com/salman-abedin/bolt)
-The lightning fast workflow creator
+: The lightning fast workflow creator
 
 [Crystal](https://github.com/salman-abedin/crystal)
-The transparent desktop setup
+: The transparent desktop setup
+
+[Uniblocks](https://github.com/salman-abedin/uniblocks)
+: The statusbar
 
 [Magpie](https://github.com/salman-abedin/magpie)
-The dotfiles
+: The dotfiles
+
+## Contact
+
+SalmanAbedin@disroot.org
