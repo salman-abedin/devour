@@ -12,6 +12,8 @@ this is a fork of
 
 ## Usage
 
+- This is shellscript, so do the typical drill (chmod, move to path)
+
 ```sh
 devour [CMD...]
 launch-devour [FILE...]
