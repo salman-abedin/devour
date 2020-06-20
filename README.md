@@ -13,7 +13,7 @@ this is a fork of
 ## Installation
 
 ```sh
-git clone git@github.com:salman-abedin/devour.git
+git clone https://github.com/salman-abedin/devour.git
 sudo make install
 ```
 
