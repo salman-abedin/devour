@@ -43,6 +43,9 @@ sudo make uninstall
 [Magpie](https://github.com/salman-abedin/magpie)
 : The dotfiles
 
+[Alfred](https://github.com/salman-abedin/alfred)
+: The scripts
+
 ## Contact
 
 SalmanAbedin@disroot.org
