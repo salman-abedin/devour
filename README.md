@@ -35,7 +35,7 @@ sudo make uninstall
 : The lightning fast workflow creator
 
 [Crystal](https://github.com/salman-abedin/crystal)
-: The transparent desktop setup
+: The transparent setup
 
 [Uniblocks](https://github.com/salman-abedin/uniblocks)
 : The statusbar
