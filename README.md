@@ -1,6 +1,6 @@
 ![](demo/preview.gif)
 
-# WM agnostic swallowing feature
+# WM agnostic swallowing feature for terminal emulators
 
 this is a fork of
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
