@@ -14,7 +14,7 @@ this is a fork of
 
 ```sh
 git clone https://github.com/salman-abedin/devour.git
-cd devout
+cd devour
 sudo make install
 ```
 
