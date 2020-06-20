@@ -24,6 +24,12 @@ devour [CMD...]
 launch-devour [FILE...]
 ```
 
+## Uninstallation
+
+```sh
+sudo make uninstall
+```
+
 ## Other Projects
 
 [Bolt](https://github.com/salman-abedin/bolt)
