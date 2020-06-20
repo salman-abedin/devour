@@ -10,9 +10,14 @@ this is a fork of
 
 - **xdo**
 
-## Usage
+## Installation
 
-- This is shellscript, so do the typical drill (chmod, move to path)
+```sh
+git clone git@github.com:salman-abedin/devour.git
+sudo make install
+```
+
+## Usage
 
 ```sh
 devour [CMD...]
