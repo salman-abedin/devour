@@ -32,9 +32,9 @@ sudo make uninstall
 
 ## Contributors
 
-[HawaiinPizza](https://github.com/HawaiinPizza)
+-  [HawaiinPizza](https://github.com/HawaiinPizza)
 
-[sbuller](https://github.com/sbuller)
+-  [sbuller](https://github.com/sbuller)
 
 ## Other Projects
 

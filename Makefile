@@ -12,3 +12,4 @@ uninstall:
 	@for e in *.sh;do \
 		rm -f ${DESTDIR}${PREFIX}/bin/$${e%.*}; \
 		done
+
