@@ -29,13 +29,11 @@ launch-devour [FILE...]
 sudo make uninstall
 ```
 
-### Contributors
-
+## Contributors
 
 [HawaiinPizza](https://github.com/HawaiinPizza)
 
 [sbuller](https://github.com/sbuller)
-
 
 ## Other Projects
 
