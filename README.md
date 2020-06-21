@@ -8,7 +8,7 @@ This is a fork of
 
 ## Dependencies
 
--  **xdo**
+-  [xdo](https://github.com/baskerville/xdo)
 
 ## Installation
 
