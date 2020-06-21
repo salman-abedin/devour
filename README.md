@@ -3,11 +3,10 @@
 # Window Manager agnostic swallowing feature for terminal emulators
 
 This is the next iteration of
-[BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow) 
+[BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
 and a fork of
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
 [ronniedroid](https://github.com/ronniedroid)
-
 
 ## Dependencies
 
@@ -57,5 +56,3 @@ sudo make uninstall
 ## Contact
 
 SalmanAbedin@disroot.org
-
-
