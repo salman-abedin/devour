@@ -1,14 +1,16 @@
 ![](demo/preview.gif)
 
-# WM agnostic swallowing feature for terminal emulators
+# Window Manager agnostic swallowing feature for terminal emulators
 
-This is a fork of
+This is the next iteration of
+[BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
+and a fork of
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
 [ronniedroid](https://github.com/ronniedroid)
 
 ## Dependencies
 
-- **xdo**
+-  [xdo](https://github.com/baskerville/xdo)
 
 ## Installation
 
@@ -20,7 +22,6 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ```sh
 devour [CMD...]
-launch-devour [FILE...]
 ```
 
 ## Uninstallation
@@ -29,7 +30,7 @@ launch-devour [FILE...]
 sudo make uninstall
 ```
 
-### Contributors
+## Contributors
 
 [HawaiinPizza](https://github.com/HawaiinPizza)
 
