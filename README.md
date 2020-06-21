@@ -2,6 +2,8 @@
 
 # Window Manager agnostic swallowing feature for terminal emulators
 
+Devour hides your terminal window before launching an external program and unhides it after quitting.
+
 This is the next iteration of
 [BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
 and a fork of
