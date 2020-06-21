@@ -20,7 +20,6 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ```sh
 devour [CMD...]
-launch-devour [FILE...]
 ```
 
 ## Uninstallation
