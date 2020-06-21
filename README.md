@@ -8,7 +8,7 @@ This is a fork of
 
 ## Dependencies
 
-- **xdo**
+-  **xdo**
 
 ## Installation
 
@@ -55,3 +55,5 @@ sudo make uninstall
 ## Contact
 
 SalmanAbedin@disroot.org
+
+
