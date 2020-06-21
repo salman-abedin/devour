@@ -2,6 +2,8 @@
 
 # Window Manager agnostic swallowing feature for terminal emulators
 
+Devour hides your terminal window before launching an external program and unhides it after quitting.
+
 This is the next iteration of
 [BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
 and a fork of
@@ -30,16 +32,20 @@ devour [CMD...]
 sudo make uninstall
 ```
 
+## Patches
+
+-   Added support for names with spaces
+
 ## Contributors
 
-[HawaiinPizza](https://github.com/HawaiinPizza)
+-  [HawaiinPizza](https://github.com/HawaiinPizza)
 
-[sbuller](https://github.com/sbuller)
+-  [sbuller](https://github.com/sbuller)
 
 ## Other Projects
 
 [Bolt](https://github.com/salman-abedin/bolt)
-: The lightning fast workflow creator
+: The lightning fast file/folder launcher
 
 [Crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
