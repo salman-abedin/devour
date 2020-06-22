@@ -45,7 +45,7 @@ sudo make uninstall
 ## Other Projects
 
 [Bolt](https://github.com/salman-abedin/bolt)
-: The lightning fast workflow creator
+: The lightning fast file/folder launcher
 
 [Crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
