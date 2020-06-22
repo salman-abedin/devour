@@ -32,6 +32,10 @@ devour [CMD...]
 sudo make uninstall
 ```
 
+## Patches
+
+-   Added support for names with spaces
+
 ## Contributors
 
 -  [HawaiinPizza](https://github.com/HawaiinPizza)
