@@ -28,14 +28,14 @@ devour [CMD...]
 
 ## Pro Tip!
 
-Don't use the script directly.
-I didn't write it to be called from the terminal in the first  place.
+**Stop devouring from the shell!**
+It doesn't matter whether you are aliasing or not. I didn't write it to be called from the shell in the first place.
 It just happens to have that ability.
 
 Watch my demo and see how I have integrated it with a file browser.
 That's the **"True Devouring Experience"**. XD.
 
-This is why I showed launching from the terminal after I launched from my file browser cause that's a less effective way to use the script.
+This is why I showed devouring from the shell after I devoured from my file browser cause the former a less effective way to use the script than the latter.
 
 **Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** instead of writing your own launch script which is not that hard to do by any standard.
 
