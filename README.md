@@ -32,6 +32,7 @@ Don't use the script directly.
 I didn't write it to be called from the terminal in the first  place.
 It just happens to have that ability.
 Watch my demo and see how I have integrated it with a file browser.
+This is why I showed launching from the terminal after I launched from my file browser cause that's a less effective way to use the script.
 That's the **"True Devouring Experience"**. XD
 
 **Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** instead of writing your own launch script which is not that hard to do by any standard. However, since you are stuck with xdg-open, go to your application folder and modify your applications that you launch from the terminal like below to get the full experience.
