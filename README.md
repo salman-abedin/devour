@@ -26,6 +26,12 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 devour [CMD...]
 ```
 
+## Pro Tip
+
+Don't use the script directly.
+Watch my demo and see how I have integrated it with a file browser.
+That's the "True Devouring Experience"
+
 ## Uninstallation
 
 ```sh
