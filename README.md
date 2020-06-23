@@ -35,11 +35,11 @@ It just happens to have that ability.
 Watch my demo and see how I have integrated it with a file browser.
 That's the **"True Devouring Experience"**. XD.
 
-This is why I showed devouring from the shell after I devoured from my file browser cause the former a less effective way to use the script than the latter.
+This is why I showed devouring from the shell after I devoured from my file browser cause the former is a less effective way to use the script than the latter.
 
 **Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** instead of writing your own launch script which is not that hard to do by any standard.
 
-However, since you are stuck with xdg-open, go to your application folder and modify your applications that you launch from the terminal like below to get the full experience.
+However, since you are stuck with xdg-open, go to your **~/.local/share/application** folder and modify the applications that you launch from the terminal like below to get the full experience.
 
 ```
 [Desktop Entry]
