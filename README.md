@@ -26,10 +26,13 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 devour [CMD...]
 ```
 
-## Pro Tip!
+## Pro Tip
 
 **Stop devouring from the shell!**
-It doesn't matter whether you are aliasing or not. I didn't write it to be called from the shell in the first place.
+
+It doesn't matter whether you are aliasing or not.
+
+I didn't write it to be called from the shell in the first place.
 It just happens to have that ability.
 
 Watch my demo and see how I have integrated it with a file browser.
