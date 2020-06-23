@@ -42,7 +42,7 @@ sudo make uninstall
 
 -  [sbuller](https://github.com/sbuller)
 
-## Other Projects
+## Repos you might be interested in
 
 [Bolt](https://github.com/salman-abedin/bolt)
 : The lightning fast file/folder launcher
