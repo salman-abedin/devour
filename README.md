@@ -34,7 +34,7 @@ sudo make uninstall
 
 ## Patches
 
--   Added support for names with spaces
+-  Added support for names with spaces
 
 ## Contributors
 
