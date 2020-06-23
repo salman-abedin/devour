@@ -29,8 +29,19 @@ devour [CMD...]
 ## Pro Tip
 
 Don't use the script directly.
+I didn't write it to be called from the terminal in the first  place.
+It just happens to have that ability.
 Watch my demo and see how I have integrated it with a file browser.
-That's the "True Devouring Experience"
+That's the "True Devouring Experience". XD
+
+**Hint:** I'm sure most of you are using the abomination of a thing called xdg-open so go to your application folder and modify your application like below.
+
+```
+[Desktop Entry]
+Type=Application
+Name=PDF Reader
+Exec=/usr/local/bin/devour /usr/bin/zathura %U
+```
 
 ## Uninstallation
 
