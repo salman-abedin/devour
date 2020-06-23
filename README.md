@@ -38,6 +38,8 @@ sudo make uninstall
 
 ## Contributors
 
+-  [agnipau](https://github.com/agnipau)
+
 -  [HawaiinPizza](https://github.com/HawaiinPizza)
 
 -  [sbuller](https://github.com/sbuller)
