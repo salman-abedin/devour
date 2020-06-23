@@ -26,15 +26,15 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 devour [CMD...]
 ```
 
-## Pro Tip
+## Pro Tip!
 
 Don't use the script directly.
 I didn't write it to be called from the terminal in the first  place.
 It just happens to have that ability.
 Watch my demo and see how I have integrated it with a file browser.
-That's the "True Devouring Experience". XD
+That's the **"True Devouring Experience"**. XD
 
-**Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** so go to your application folder and modify your applications like below.
+**Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** instead of writing your own launch script which is not that hard by any standard. However, since you are stuck with xdg-open, go to your application folder and modify your applications like below to get the full experience.
 
 ```
 [Desktop Entry]
