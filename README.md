@@ -4,7 +4,7 @@
 
 Devour hides your terminal window before launching an external program and unhides it after quitting.
 
-This is the next iteration of
+Devour is the successor to
 [BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
 and a fork of
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
