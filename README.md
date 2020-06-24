@@ -51,9 +51,9 @@ sudo make uninstall
 
 ## Patches
 
--  Added support for names with spaces (21/06/20)
+-  Added support for names with spaces **(21/06/20)**
 
--  Fixed a minor bug (24/06/20)
+-  Fixed a minor bug **(24/06/20)**
 
 ## Contributors
 
