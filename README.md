@@ -34,7 +34,7 @@ Watch my demo and notice how seamless it is compared to calling the script from 
 
 **Hint:** If you are one of those unfortunate souls who uses **xdg-open** instead of
 [a custom launch script](https://github.com/salman-abedin/alfred/blob/master/launch-devour.sh),
-then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below and enjoy the true devouring experience.
+then go to your **~/.local/share/applications** directory and modify the applications you launch from your file browser like below and enjoy the true devouring experience.
 
 ```
 [Desktop Entry]
@@ -51,7 +51,7 @@ sudo make uninstall
 
 ## Patches
 
--  **21/06/20**:- Added support for names with spaces 
+-  **21/06/20**:- Added support for names with spaces
 
 -  **24/06/20**:- Fixed a minor bug
 
@@ -62,6 +62,8 @@ sudo make uninstall
 -  [HawaiinPizza](https://github.com/HawaiinPizza)
 
 -  [sbuller](https://github.com/sbuller)
+
+---
 
 ## Repos you might be interested in
 
