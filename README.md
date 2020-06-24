@@ -30,9 +30,9 @@ devour [CMD...]
 
 **Devour from your file browser instead of shell**
 
-**Hint:** I'm sure most of you are using the abomination of a thing called **xdg-open** instead of writing your own launch script which is not that hard to write by any standard.
+Check my demo and see how seamless it is compared to calling the script from the shell.
 
-However, since you are stuck with that, go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below to enjoy some premium devouring.
+**Hint:** If you are one of those unfortunate souls who uses **xdg-open** then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below to enjoy some premium devouring.
 
 ```
 [Desktop Entry]
