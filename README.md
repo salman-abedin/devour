@@ -28,9 +28,9 @@ devour [CMD...]
 
 ## Pro Tip
 
-**Devour from your file browser instead of shell**
+**Devour from your file browser instead of the shell**
 
-Check my demo and see how seamless it is compared to calling the script from the shell.
+Watch my demo and see how seamless it is compared to calling the script from the shell.
 
 **Hint:** If you are one of those unfortunate souls who uses **xdg-open** instead of
 [a custom launch script](https://github.com/salman-abedin/alfred/blob/master/launch-devour.sh),
