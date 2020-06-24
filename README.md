@@ -28,7 +28,7 @@ devour [CMD...]
 
 ## Pro Tip
 
-**Devour from your file browser instead of the shell**
+**Devour from your file browser instead of the shell.**
 
 Watch my demo and notice how seamless it is compared to calling the script from the shell.
 
