@@ -32,7 +32,9 @@ devour [CMD...]
 
 Check my demo and see how seamless it is compared to calling the script from the shell.
 
-**Hint:** If you are one of those unfortunate souls who uses **xdg-open** then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below to enjoy some premium devouring.
+**Hint:** If you are one of those unfortunate souls who uses **xdg-open** instead of
+[a custom launch script](https://github.com/salman-abedin/alfred/blob/master/launch-devour.sh),
+then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below to enjoy some premium devouring.
 
 ```
 [Desktop Entry]
