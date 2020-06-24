@@ -30,11 +30,11 @@ devour [CMD...]
 
 **Devour from your file browser instead of the shell**
 
-Watch my demo and see how seamless it is compared to calling the script from the shell.
+Watch my demo and notice how seamless it is compared to calling the script from the shell.
 
 **Hint:** If you are one of those unfortunate souls who uses **xdg-open** instead of
 [a custom launch script](https://github.com/salman-abedin/alfred/blob/master/launch-devour.sh),
-then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below to enjoy some premium devouring.
+then go to your **~/.local/share/applications** directory and modify the applications you launch from the terminal like below and enjoy the true devouring experience.
 
 ```
 [Desktop Entry]
