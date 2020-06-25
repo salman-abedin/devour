@@ -74,7 +74,7 @@ sudo make uninstall
 : The transparent setup
 
 [Uniblocks](https://github.com/salman-abedin/uniblocks)
-: The statusbar
+: The status bar
 
 [Magpie](https://github.com/salman-abedin/magpie)
 : The dotfiles
