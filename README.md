@@ -73,14 +73,14 @@ sudo make uninstall
 [Crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
 
-[Uniblocks](https://github.com/salman-abedin/uniblocks)
-: The status bar
-
 [Magpie](https://github.com/salman-abedin/magpie)
 : The dotfiles
 
 [Alfred](https://github.com/salman-abedin/alfred)
 : The scripts
+
+[Uniblocks](https://github.com/salman-abedin/uniblocks)
+: The status bar
 
 ## Contact
 
