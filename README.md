@@ -61,7 +61,7 @@ sudo make uninstall
 
 -  **24/06/20**:- Fixed a minor bug
 
--  **07/07/20**:- Added shell alias support
+-  **07/07/20**:- Added support for shell aliases
 
 ## Contributors
 
