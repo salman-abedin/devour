@@ -16,7 +16,7 @@ and a fork of
 
 ## Dependencies
 
--  cat, awk & tee
+-  cat & awk
 
 -  [xdo](https://github.com/baskerville/xdo)
 

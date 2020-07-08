@@ -5,8 +5,7 @@ WID=$(xdo id)
 SHELL=/tmp/shell
 
 [ -e $SHELL ] ||
-    awk -F: -v user="$USER" '$1 == user {print $NF}' /etc/passwd |
-    tee $SHELL
+    awk -F: -v user="$USER" '$1 == user {print $NF}' /etc/passwd > $SHELL
 
 cat << eof > $SCRIPT
 xdo hide
