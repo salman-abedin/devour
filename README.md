@@ -69,6 +69,8 @@ sudo make uninstall
 
 -  [sbuller](https://github.com/sbuller)
 
+-  [AriaMoradi](https://github.com/AriaMoradi)
+
 ---
 
 ## Repos you might be interested in
