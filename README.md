@@ -1,5 +1,9 @@
 ![](demo/preview.gif)
 
+# Demonstration done by Distrotube
+
+[![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s&fbclid=IwAR3L2kyohAIOzuBkj1sZPg14b9OYhpiN43UE_Gg39FNtkHaV0ygklnRbqwE)
+
 # Devour: Window Manager agnostic swallowing feature for terminal emulators
 
 Devour hides your terminal window before launching an external program and unhides it after quitting.
