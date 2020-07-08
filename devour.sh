@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
+SHELL=/tmp/shell
 SCRIPT=/tmp/script
 WID=$(xdo id)
-SHELL=/tmp/shell
 
 [ -e $SHELL ] ||
     awk -F: -v user="$USER" '$1 == user {print $NF}' /etc/passwd > $SHELL

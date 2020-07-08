@@ -2,7 +2,7 @@
 
 # Demonstration done by [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
 
-[![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s&fbclid=IwAR3L2kyohAIOzuBkj1sZPg14b9OYhpiN43UE_Gg39FNtkHaV0ygklnRbqwE)
+[![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
 # Devour: Window Manager agnostic swallowing feature for terminal emulators
 
