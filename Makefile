@@ -1,5 +1,4 @@
 PREFIX = /usr/local
-
 install:
 	@echo Installing executable files to ${DESTDIR}${PREFIX}/bin
 	@mkdir -p ${DESTDIR}${PREFIX}/bin
