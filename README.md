@@ -27,7 +27,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour [CMD...]
+devour [cmds/aliases ...]
 ```
 
 ## Pro Tip
@@ -58,6 +58,8 @@ sudo make uninstall
 -  **21/06/20**:- Added support for names with spaces
 
 -  **24/06/20**:- Fixed a minor bug
+
+-  **07/07/20**:- Added shell alias support
 
 ## Contributors
 
