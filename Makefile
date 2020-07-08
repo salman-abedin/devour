@@ -1,15 +1,10 @@
 PREFIX = /usr/local
-
 install:
-	@echo Installing executable files to ${DESTDIR}${PREFIX}/bin
+	@cp devour.sh devour
+	@chmod 755 devour
 	@mkdir -p ${DESTDIR}${PREFIX}/bin
-	@for e in *.sh; do \
-		cp -f $$e ${DESTDIR}${PREFIX}/bin; \
-		chmod 755 ${DESTDIR}${PREFIX}/bin/$$e; \
-		mv ${DESTDIR}${PREFIX}/bin/$$e ${DESTDIR}${PREFIX}/bin/$${e%.*}; \
-		done
+	@mv devour ${DESTDIR}${PREFIX}/bin
+	@echo Done installing executable files to ${DESTDIR}${PREFIX}/bin
 uninstall:
-	@echo Removing executable files from ${DESTDIR}${PREFIX}/bin
-	@for e in *.sh;do \
-		rm -f ${DESTDIR}${PREFIX}/bin/$${e%.*}; \
-		done
+	@rm -f ${DESTDIR}${PREFIX}/bin/devour
+	@echo Done removing executable files from ${DESTDIR}${PREFIX}/bin
