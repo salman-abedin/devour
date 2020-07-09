@@ -32,7 +32,7 @@ devour [cmds/aliases ...]
 
 ## Pro Tip
 
-**Devour from your file browser instead of the shell.**
+**Devour from your file explorer instead of the shell.**
 
 Watch my demo and notice how seamless it is compared to devouring from the shell.
 
