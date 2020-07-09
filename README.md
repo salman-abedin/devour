@@ -16,8 +16,6 @@ and a fork of
 
 ## Dependencies
 
--  cat & awk
-
 -  [xdo](https://github.com/baskerville/xdo)
 
 ## Installation
