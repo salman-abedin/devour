@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 WID=$(xdo id)
 SCRIPT="xdo hide
