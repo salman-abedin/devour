@@ -1,13 +1,8 @@
 #!/usr/bin/env sh
 
-SCRIPT=/tmp/script
 WID=$(xdo id)
+SCRIPT="xdo hide
+$* > /dev/null 2>&1
+xdo show $WID"
 
-cat << eof > $SCRIPT
-xdo hide
-$@ > /dev/null 2>&1
-xdo show "$WID"
-exit 0
-eof
-
-$SHELL -i $SCRIPT
+$SHELL -i -c "$SCRIPT"
