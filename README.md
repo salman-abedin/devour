@@ -88,7 +88,7 @@ sudo make uninstall
 : The scripts
 
 [Uniblocks](https://github.com/salman-abedin/uniblocks)
-: The status bar
+: The status bar wrapper
 
 ## Contact
 
