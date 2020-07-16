@@ -27,7 +27,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour [cmds/aliases ...]
+devour CMD/ALIAS ...
 ```
 
 ## Pro Tip
