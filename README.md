@@ -78,6 +78,12 @@ sudo make uninstall
 [Bolt](https://github.com/salman-abedin/bolt)
 : The lightning fast file/folder launcher
 
+[Uniblocks](https://github.com/salman-abedin/uniblocks)
+: The status bar wrapper
+
+[puri](https://github.com/salman-abedin/puri)
+: Minimal URL launcher
+
 [Crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
 
@@ -86,9 +92,6 @@ sudo make uninstall
 
 [Alfred](https://github.com/salman-abedin/alfred)
 : The scripts
-
-[Uniblocks](https://github.com/salman-abedin/uniblocks)
-: The status bar wrapper
 
 ## Contact
 
