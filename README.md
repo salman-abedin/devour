@@ -75,16 +75,19 @@ sudo make uninstall
 
 ## Repos you might be interested in
 
-[Bolt](https://github.com/salman-abedin/bolt)
+[bolt](https://github.com/salman-abedin/bolt)
 : The lightning fast file/folder launcher
 
-[Uniblocks](https://github.com/salman-abedin/uniblocks)
+[uniblocks](https://github.com/salman-abedin/uniblocks)
 : The status bar wrapper
 
 [puri](https://github.com/salman-abedin/puri)
 : Minimal URL launcher
 
-[Crystal](https://github.com/salman-abedin/crystal)
+[tide](https://github.com/salman-abedin/puri)
+: Minimal Transmission CLI client
+
+[crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
 
 [Magpie](https://github.com/salman-abedin/magpie)
