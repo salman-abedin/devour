@@ -16,6 +16,7 @@ and a fork of
 
 ## Dependencies
 
+-  sed
 -  [xdo](https://github.com/baskerville/xdo)
 
 ## Installation
