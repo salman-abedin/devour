@@ -1,3 +1,4 @@
+.POSIX:
 PREFIX = /usr/local
 install:
 	@cp devour.sh devour

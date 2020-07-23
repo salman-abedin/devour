@@ -16,7 +16,7 @@ and a fork of
 
 ## Dependencies
 
--  [xdo](https://github.com/baskerville/xdo)
+-  sed, [xdo](https://github.com/baskerville/xdo)
 
 ## Installation
 
@@ -27,7 +27,8 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour CMD/ALIAS ...
+devour CMD/ALIAS ... SAFE FILE ...
+devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
 ```
 
 ## Pro Tip
@@ -57,9 +58,9 @@ sudo make uninstall
 
 -  **21/06/20**:- Added support for names with spaces
 
--  **24/06/20**:- Fixed a minor bug
-
 -  **07/07/20**:- Added support for shell aliases
+
+-  **24/07/20**:- Added support for names with spaces in alias mode
 
 ## Contributors
 
@@ -71,30 +72,21 @@ sudo make uninstall
 
 -  [AriaMoradi](https://github.com/AriaMoradi)
 
+-  [durcor](https://github.com/durcor)
+
 ---
 
 ## Repos you might be interested in
 
-[bolt](https://github.com/salman-abedin/bolt)
-: The lightning fast file/folder launcher
-
-[uniblocks](https://github.com/salman-abedin/uniblocks)
-: The status bar wrapper
-
-[puri](https://github.com/salman-abedin/puri)
-: Minimal URL launcher
-
-[tide](https://github.com/salman-abedin/puri)
-: Minimal Transmission CLI client
-
-[crystal](https://github.com/salman-abedin/crystal)
-: The transparent setup
-
-[Magpie](https://github.com/salman-abedin/magpie)
-: The dotfiles
-
-[Alfred](https://github.com/salman-abedin/alfred)
-: The scripts
+| Name                                                    | Description                     |
+| ------------------------------------------------------- | ------------------------------- |
+| [bolt](https://github.com/salman-abedin/bolt)           | The launcher wrapper            |
+| [uniblocks](https://github.com/salman-abedin/uniblocks) | The status bar wrapper          |
+| [tide](https://github.com/salman-abedin/puri)           | Minimal Transmission CLI client |
+| [puri](https://github.com/salman-abedin/puri)           | Minimal URL launcher            |
+| [crystal](https://github.com/salman-abedin/crystal)     | The transparent setup           |
+| [Magpie](https://github.com/salman-abedin/magpie)       | The dotfiles                    |
+| [Alfred](https://github.com/salman-abedin/alfred)       | The scripts                     |
 
 ## Contact
 
