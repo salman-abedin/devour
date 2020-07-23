@@ -28,6 +28,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ```sh
 devour CMD/ALIAS ...
+devour CMD/ALIAS ... -- [FILE with spaces]
 ```
 
 ## Pro Tip
