@@ -5,6 +5,8 @@
 WID=$(xdo id)
 
 $SHELL -i -c "xdo hide
+echo $* >> ~/Downloads/d
+echo ($*) >> ~/Downloads/d
 $* > /dev/null 2>&1
 xdo show $WID
 exit"
