@@ -82,11 +82,11 @@ sudo make uninstall
 [uniblocks](https://github.com/salman-abedin/uniblocks)
 : The status bar wrapper
 
-[puri](https://github.com/salman-abedin/puri)
-: Minimal URL launcher
-
 [tide](https://github.com/salman-abedin/puri)
 : Minimal Transmission CLI client
+
+[puri](https://github.com/salman-abedin/puri)
+: Minimal URL launcher
 
 [crystal](https://github.com/salman-abedin/crystal)
 : The transparent setup
