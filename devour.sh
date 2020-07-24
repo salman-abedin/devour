@@ -5,12 +5,13 @@
 # Usage: devour CMD/ALIAS ...
 #        devour CMD/ALIAS ... -- [FILE with spaces]
 
-WID=$(xdo id)
-
 ARGS=$*
+
 CMD="${ARGS%% --*}"
 FILE="${ARGS##*-- }"
 SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
+
+WID=$(xdo id)
 
 $SHELL -i -c "xdo hide
 $CMD $SAFEFILE > /dev/null 2>&1
