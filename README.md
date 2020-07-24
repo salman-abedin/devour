@@ -58,8 +58,6 @@ sudo make uninstall
 
 -  **21/06/20**:- Added support for names with spaces
 
--  **24/06/20**:- Fixed a minor bug
-
 -  **07/07/20**:- Added support for shell aliases
 
 -  **24/07/20**:- Added support for names with spaces in alias mode
