@@ -62,6 +62,8 @@ sudo make uninstall
 
 -  **07/07/20**:- Added support for shell aliases
 
+-  **24/07/20**:- Added support for names with spaces in alias mode
+
 ## Contributors
 
 -  [agnipau](https://github.com/agnipau)
