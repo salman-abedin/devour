@@ -7,9 +7,14 @@
 
 ARGS=$*
 
-CMD="${ARGS%% --*}"
-FILE="${ARGS##*-- }"
-SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
+CMD="${ARGS%% -- *}"
+FILE="${ARGS##* -- }"
+
+if [ "$FILE" = "$CMD" ]; then
+    SAFEFILE=
+else
+    SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
+fi
 
 WID=$(xdo id)
 
