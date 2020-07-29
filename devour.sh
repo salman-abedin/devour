@@ -10,7 +10,7 @@ ARGS=$*
 CMD="${ARGS%% -- *}"
 FILE="${ARGS##* -- }"
 
-[ "$FILE" != "$CMD" ] && SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
+[ "$CMD" != "$FILE" ] && SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
 
 WID=$(xdo id)
 
