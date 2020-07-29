@@ -2,8 +2,8 @@
 #
 # Hides your terminal window before launching an external program and unhides it after quitting.
 # Dependencies: sed, xdo
-# Usage: devour CMD/ALIAS ... [SAFE FILE ...]
-#        devour CMD/ALIAS ... -- [SAFE FILE / UNSAFE FILE]
+# Usage: devour CMD/ALIAS ... SAFE FILE ...
+#        devour CMD/ALIAS ... -- SAFE FILE / UNSAFE FILE
 
 ARGS=$*
 
