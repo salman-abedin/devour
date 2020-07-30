@@ -72,7 +72,7 @@ sudo make uninstall
 
 -  [AriaMoradi](https://github.com/AriaMoradi)
 
--  [ducor](https://github.com/durcor)
+-  [durcor](https://github.com/durcor)
 
 ---
 
