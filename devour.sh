@@ -6,15 +6,11 @@
 #        devour CMD/ALIAS ... -- SAFE FILE / UNSAFE FILE
 
 ARGS=$*
-
 CMD="${ARGS%% -- *}"
 FILE="${ARGS##* -- }"
-
 [ "$CMD" != "$FILE" ] && SAFEFILE=$(echo "$FILE" | sed 's/ /\\ /g')
-
 WID=$(xdo id)
 
-$SHELL -i -c "xdo hide
-$CMD $SAFEFILE > /dev/null 2>&1
-xdo show $WID
-exit"
+xdo hide
+$SHELL -i -c "$CMD $SAFEFILE > /dev/null 2>&1; exit"
+xdo show "$WID"

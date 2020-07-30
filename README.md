@@ -72,6 +72,8 @@ sudo make uninstall
 
 -  [AriaMoradi](https://github.com/AriaMoradi)
 
+-  [ducor](https://github.com/durcor)
+
 ---
 
 ## Repos you might be interested in
