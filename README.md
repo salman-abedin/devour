@@ -8,28 +8,26 @@
 
 Devour hides your terminal window before launching an external program and unhides it after quitting.
 
-Devour is the successor to
-[BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
-and a fork of
-[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
-[ronniedroid](https://github.com/ronniedroid)
+Devour was inspired by
+[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
 
 ## Dependencies
 
--  sed, [xdo](https://github.com/baskerville/xdo)
+-  libx11 (X11 client-side library)
 
 ## Installation
 
 ```sh
-git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
+git clone https://github.com/salman-abedin/devour.git && cd devour && make && sudo make install
 ```
 
 ## Usage
 
 ```sh
 devour CMD/ALIAS ... SAFE FILE ...
-devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
 ```
+
+~~devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE~~
 
 ## Pro Tip
 
@@ -62,6 +60,8 @@ sudo make uninstall
 
 -  **24/07/20**:- Added support for names with spaces in alias mode
 
+-  **03/08/20**:- Re-wrote the shellscript in C
+
 ## Contributors
 
 -  [agnipau](https://github.com/agnipau)
@@ -73,6 +73,11 @@ sudo make uninstall
 -  [AriaMoradi](https://github.com/AriaMoradi)
 
 -  [durcor](https://github.com/durcor)
+
+## TO-DOs
+
+-  Support for files with spaces
+-  Authentic swallowing
 
 ---
 
