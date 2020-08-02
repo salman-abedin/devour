@@ -75,6 +75,11 @@ sudo make uninstall
 
 -  [durcor](https://github.com/durcor)
 
+## TO-DOs
+
+-  Devouring of exact window
+-  Support for files with spaces
+
 ---
 
 ## Repos you might be interested in
