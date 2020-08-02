@@ -54,11 +54,13 @@ sudo make uninstall
 
 ## Patches
 
--  ~~**21/06/20**:- Added support for names with spaces~~
+-  **21/06/20**:- Added support for names with spaces
 
 -  **07/07/20**:- Added support for shell aliases
 
--  ~~**24/07/20**:- Added support for names with spaces in alias mode~~
+-  **24/07/20**:- Added support for names with spaces in alias mode
+
+-  **03/08/20**:- Re-wrote the script in C
 
 ## Contributors
 
