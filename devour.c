@@ -1,7 +1,6 @@
 /* devour
  *
  * window Manager agnostic swallowing feature for terminal emulators
- *
  */
 
 #include <X11/Xlib.h>
