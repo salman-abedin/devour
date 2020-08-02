@@ -7,13 +7,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-void fixpath(int argc, char *argv[], int i, char *path) {
+void fixpath(int argc, char *argv[], int i, char *upath) {
   while (i < argc) {
-    strcat(path, argv[i]);
+    strcat(upath, argv[i]);
     if (i != argc - 1)
-      strcat(path, "\\ ");
+      strcat(upath, "\\ ");
     else
-      strcat(path, " ");
+      strcat(upath, " ");
     ++i;
   }
 }
