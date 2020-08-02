@@ -28,8 +28,9 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && make && su
 
 ```sh
 devour CMD/ALIAS ... SAFE FILE ...
-devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
 ```
+
+~~devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE~~
 
 ## Pro Tip
 
@@ -56,11 +57,11 @@ sudo make uninstall
 
 ## Patches
 
--  **21/06/20**:- Added support for names with spaces
+-  ~~**21/06/20**:- Added support for names with spaces~~
 
 -  **07/07/20**:- Added support for shell aliases
 
--  **24/07/20**:- Added support for names with spaces in alias mode
+-  ~~**24/07/20**:- Added support for names with spaces in alias mode~~
 
 ## Contributors
 
