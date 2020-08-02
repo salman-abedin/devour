@@ -15,11 +15,14 @@ void runcommand(int argc, char *argv[]) {
 
   strcpy(str, head);
   for (int i = 1; i < argc; ++i) {
-    if (strcmp(argv[i], "--"))
-      break;
+    if (!strcmp(argv[i], "--"))
+      goto procfile;
     strcat(str, argv[i]);
     strcat(str, " ");
   }
+procfile:
+  strcat(str, "file");
+
   strcat(str, tail);
 
   printf("%s", str);
