@@ -4,7 +4,7 @@ NAME    := devour
 
 LDLIBS   += -lX11
 
-PREFIX    ?= /usr/local/bin
+PREFIX    ?= /usr/local
 BINPREFIX ?= $(PREFIX)/bin
 
 SRC := $(wildcard *.c)
