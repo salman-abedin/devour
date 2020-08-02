@@ -7,40 +7,40 @@
 #include <stdlib.h>
 #include <string.h>
 
-void fixpath(int argc, char *argv[], int i, char *str) {
+void fixpath(int argc, char *argv[], int i, char *path) {
   while (i < argc) {
-    strcat(str, argv[i]);
+    strcat(path, argv[i]);
     if (i != argc - 1)
-      strcat(str, "\\ ");
+      strcat(path, "\\ ");
     else
-      strcat(str, " ");
+      strcat(path, " ");
     ++i;
   }
 }
 
 void runcommand(int argc, char *argv[]) {
-  char *str;
+  char *cmd;
   int arglen = 1;
   char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
 
   arglen += strlen(head) + strlen(tail);
   for (int i = 1; i < argc; ++i)
     arglen += 2 + strlen(argv[i]);
-  str = (char *)malloc(sizeof(char) * arglen);
+  cmd = (char *)malloc(sizeof(char) * arglen);
 
-  strcpy(str, head);
+  strcpy(cmd, head);
   for (int i = 1; i < argc; ++i) {
     if (!strcmp(argv[i], "--")) {
-      fixpath(argc, argv, ++i, str);
+      fixpath(argc, argv, ++i, cmd);
       break;
     }
-    strcat(str, argv[i]);
-    strcat(str, " ");
+    strcat(cmd, argv[i]);
+    strcat(cmd, " ");
   }
-  strcat(str, tail);
+  strcat(cmd, tail);
 
-  system(str);
-  free(str);
+  system(cmd);
+  free(cmd);
 }
 
 int main(int argc, char *argv[]) {
