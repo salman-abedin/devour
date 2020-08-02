@@ -1,11 +1,25 @@
 .POSIX:
-PREFIX = /usr/local
+
+NAME    := devour
+
+LDLIBS   += -lX11
+
+PREFIX    ?= /usr/local/bin
+BINPREFIX ?= $(PREFIX)/bin
+
+SRC := $(wildcard *.c)
+OBJ := $(SRC:.c=.o)
+
+all: $(NAME)
+$(NAME): $(OBJ)
+$(OBJ): $(SRC)
+
 install:
-	@cp devour.sh devour
-	@chmod 755 devour
-	@mkdir -p ${DESTDIR}${PREFIX}/bin
-	@mv devour ${DESTDIR}${PREFIX}/bin
-	@echo Done installing executable files to ${DESTDIR}${PREFIX}/bin
+	@mkdir -p "$(DESTDIR)$(BINPREFIX)"
+	@cp -p $(NAME) "$(DESTDIR)$(BINPREFIX)"
 uninstall:
-	@rm -f ${DESTDIR}${PREFIX}/bin/devour
-	@echo Done removing executable files from ${DESTDIR}${PREFIX}/bin
+	@rm -f "$(DESTDIR)$(BINPREFIX)/$(NAME)"
+clean:
+	@rm -f $(OBJ) $(NAME)
+
+.PHONY: all install uninstall clean
