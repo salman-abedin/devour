@@ -16,7 +16,7 @@ and a fork of
 
 ## Dependencies
 
--  sed, [xdo](https://github.com/baskerville/xdo)
+-  libx11
 
 ## Installation
 
