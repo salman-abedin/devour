@@ -20,7 +20,6 @@ void runcommand(int argc, char *argv[]) {
   }
   strcat(str, tail);
 
-  /* printf("%s", str); */
   system(str);
   free(str);
 }
