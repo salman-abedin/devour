@@ -12,5 +12,5 @@ FILE="${ARGS##* -- }"
 WID=$(xdo id)
 
 xdo hide
-$SHELL -i -c "$CMD $SAFEFILE > /dev/null 2>&1; exit"
+$SHELL -i -c "$* > /dev/null 2>&1; exit"
 xdo show "$WID"
