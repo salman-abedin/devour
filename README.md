@@ -60,7 +60,7 @@ sudo make uninstall
 
 -  **24/07/20**:- Added support for names with spaces in alias mode
 
--  **03/08/20**:- Re-wrote the script in C
+-  **03/08/20**:- Re-wrote the shellscript in C
 
 ## Contributors
 
