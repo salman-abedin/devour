@@ -7,9 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *str;
-
-void fixpath(int argc, char *argv[], int i) {
+void fixpath(int argc, char *argv[], int i, char *str) {
   while (i < argc) {
     strcat(str, argv[i]);
     if (i != argc - 1)
@@ -21,6 +19,7 @@ void fixpath(int argc, char *argv[], int i) {
 }
 
 void runcommand(int argc, char *argv[]) {
+  char *str;
   int arglen = 1;
   char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
 
@@ -32,7 +31,7 @@ void runcommand(int argc, char *argv[]) {
   strcpy(str, head);
   for (int i = 1; i < argc; ++i) {
     if (!strcmp(argv[i], "--")) {
-      fixpath(argc, argv, ++i);
+      fixpath(argc, argv, ++i, str);
       break;
     }
     strcat(str, argv[i]);
