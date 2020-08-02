@@ -75,7 +75,6 @@ sudo make uninstall
 
 ## TO-DOs
 
--  Support for files with spaces
 -  Authentic swallowing
 
 ---
