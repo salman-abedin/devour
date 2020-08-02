@@ -1,5 +1,4 @@
 #include <X11/Xlib.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -36,7 +35,6 @@ void runcommand(int argc, char *argv[]) {
   }
   strcat(str, tail);
 
-  /* printf("%s", str); */
   system(str);
   free(str);
 }
@@ -46,7 +44,7 @@ int main(int argc, char *argv[]) {
   Window win;
   Display *dis = XOpenDisplay(NULL);
   XGetInputFocus(dis, &win, &rev);
-  /* XUnmapWindow(dis, win); */
+  XUnmapWindow(dis, win);
   XCloseDisplay(dis);
   runcommand(argc, argv);
   dis = XOpenDisplay(NULL);
