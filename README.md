@@ -10,9 +10,8 @@ Devour hides your terminal window before launching an external program and unhid
 
 Devour is the successor to
 [BSPWM_Swallow](https://github.com/salman-abedin/bspwm_swallow)
-and a fork of
-[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw) by
-[ronniedroid](https://github.com/ronniedroid)
+and was inspired by
+[sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
 
 ## Dependencies
 
@@ -77,8 +76,8 @@ sudo make uninstall
 
 ## TO-DOs
 
--  Devouring of exact window
 -  Support for files with spaces
+-  Devouring of exact window
 
 ---
 
