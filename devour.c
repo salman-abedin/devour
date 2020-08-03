@@ -1,6 +1,5 @@
 /*
  * devour
- *
  * window Manager agnostic swallowing feature for terminal emulators
  */
 
