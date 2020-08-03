@@ -58,6 +58,5 @@ int main(int argc, char* argv[]) {
    XMapWindow(dis, win);
    XCloseDisplay(dis);
 
-
    return 0;
 }
