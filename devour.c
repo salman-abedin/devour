@@ -1,4 +1,5 @@
-/* devour
+/*
+ * devour
  *
  * window Manager agnostic swallowing feature for terminal emulators
  */
@@ -46,12 +47,17 @@ int main(int argc, char *argv[]) {
   int rev;
   Window win;
   Display *dis = XOpenDisplay(NULL);
+
   XGetInputFocus(dis, &win, &rev);
+
   XUnmapWindow(dis, win);
   XCloseDisplay(dis);
+
   runcommand(argc, argv);
+
   dis = XOpenDisplay(NULL);
   XMapWindow(dis, win);
   XCloseDisplay(dis);
+
   return 0;
 }
