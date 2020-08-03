@@ -1,5 +1,6 @@
 # Devour: Window Manager agnostic swallowing feature for terminal emulators
 
+
 Devour hides your terminal window before launching an external program and unhides it after quitting.
 
 Devour was inspired by
@@ -13,7 +14,7 @@ Devour was inspired by
 
 ## Dependencies
 
--  libx11 (X11 client-side library)
+- libx11 (X11 client-side library)
 
 ## Installation
 
@@ -53,29 +54,29 @@ sudo make uninstall
 
 ## Patches
 
--  **21/06/20**:- Added support for names with spaces
+- **21/06/20**:- Added support for names with spaces
 
--  **07/07/20**:- Added support for shell aliases
+- **07/07/20**:- Added support for shell aliases
 
--  **24/07/20**:- Added support for names with spaces in alias mode
+- **24/07/20**:- Added support for names with spaces in alias mode
 
--  **03/08/20**:- Rewrote the shellscript in C
+- **03/08/20**:- Rewrote the shellscript in C
 
 ## Contributors
 
--  [agnipau](https://github.com/agnipau)
+- [agnipau](https://github.com/agnipau)
 
--  [HawaiinPizza](https://github.com/HawaiinPizza)
+- [HawaiinPizza](https://github.com/HawaiinPizza)
 
--  [sbuller](https://github.com/sbuller)
+- [sbuller](https://github.com/sbuller)
 
--  [AriaMoradi](https://github.com/AriaMoradi)
+- [AriaMoradi](https://github.com/AriaMoradi)
 
--  [durcor](https://github.com/durcor)
+- [durcor](https://github.com/durcor)
 
 ## TO-DOs
 
--  Authentic swallowing
+- Authentic swallowing
 
 ---
 
