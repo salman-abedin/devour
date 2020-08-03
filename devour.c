@@ -30,7 +30,7 @@ void runcommand(int argc, char *argv[]) {
 
   strcpy(cmd, head);
   for (int i = 1; i < argc; ++i) {
-    if (!strcmp(argv[i], "--")) {
+    if (strcmp(argv[i], "--") == 0) {
       fixpath(argc, argv, ++i, cmd);
       break;
     }
