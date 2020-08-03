@@ -4,11 +4,10 @@ NAME    := devour
 
 LDLIBS   += -lX11
 
-PREFIX    ?= /usr/local
-BINPREFIX ?= ${PREFIX}/bin
+BINPREFIX ?= /usr/local/bin
 
-SRC := $(wildcard *.c)
 OBJ := $(SRC:.c=.o)
+SRC := $(wildcard *.c)
 
 all: ${NAME}
 ${NAME}: ${OBJ}

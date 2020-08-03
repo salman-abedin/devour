@@ -1,15 +1,15 @@
-![](demo/preview.gif)
-
-# Demonstration done by [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
-
-[![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
-
 # Devour: Window Manager agnostic swallowing feature for terminal emulators
 
 Devour hides your terminal window before launching an external program and unhides it after quitting.
 
 Devour was inspired by
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
+
+![](demo/preview.gif)
+
+# Demonstration done by [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
+
+[![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
 ## Dependencies
 
