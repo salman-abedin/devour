@@ -2,6 +2,7 @@
 
 NAME    := devour
 
+CFLAGS   += -std=c99
 LDLIBS   += -lX11
 
 BINPREFIX ?= /usr/local/bin
