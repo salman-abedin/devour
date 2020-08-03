@@ -8,13 +8,12 @@
 #include <string.h>
 
 void fixpath(int argc, char *argv[], int i, char *upath) {
-  while (i < argc) {
+  for (; i < argc; ++i) {
     strcat(upath, argv[i]);
     if (i != argc - 1)
       strcat(upath, "\\ ");
     else
       strcat(upath, " ");
-    ++i;
   }
 }
 
