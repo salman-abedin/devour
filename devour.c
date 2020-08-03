@@ -17,7 +17,6 @@ void fixpath(int argc, char* argv[], int i, char* upath) {
    }
 }
 
-
 void runcommand(int argc, char* argv[]) {
    char* cmd;
    int arglen = 1;
