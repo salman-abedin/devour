@@ -46,14 +46,10 @@ int main(int argc, char* argv[]) {
    int rev;
    Window win;
    Display* dis = XOpenDisplay(NULL);
-
    XGetInputFocus(dis, &win, &rev);
-
    XUnmapWindow(dis, win);
    XFlush(dis);
-
    runcommand(argc, argv);
-
    XMapWindow(dis, win);
    XCloseDisplay(dis);
    return 0;
