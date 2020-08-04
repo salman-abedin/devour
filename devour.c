@@ -50,13 +50,11 @@ int main(int argc, char* argv[]) {
    XGetInputFocus(dis, &win, &rev);
 
    XUnmapWindow(dis, win);
-   XCloseDisplay(dis);
+   XFlush(dis);
 
    runcommand(argc, argv);
 
-   dis = XOpenDisplay(NULL);
    XMapWindow(dis, win);
    XCloseDisplay(dis);
-
    return 0;
 }
