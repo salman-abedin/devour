@@ -1,8 +1,6 @@
 # Devour: Window Manager agnostic swallowing feature for terminal emulators
 
-
-Devour hides your terminal window before launching an external program and unhides it after quitting.
-
+Devour hides your terminal window before launching an external program and unhides it after quitting.  
 Devour was inspired by
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
 
@@ -14,7 +12,7 @@ Devour was inspired by
 
 ## Dependencies
 
-- libx11 (X11 client-side library)
+-  libx11 (X11 client-side library)
 
 ## Installation
 
@@ -31,10 +29,8 @@ devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
 
 ## Pro Tip
 
-**Devour from your file explorer instead of the shell.**
-
-Watch my demo and notice how seamless it is compared to devouring from the shell.
-
+**Devour from your file explorer instead of the shell.**  
+Watch my demo and notice how seamless it is compared to devouring from the shell.  
 **Hint:** If you are one of those unfortunate souls who uses **xdg-open** instead of
 [a custom launch script](https://gist.github.com/salman-abedin/6f52c52e465d89d489f9ea8d891c7332),
 then go to your **~/.local/share/applications** directory and modify the applications you launch from your file explorer like below and enjoy the true devouring experience.
@@ -54,29 +50,29 @@ sudo make uninstall
 
 ## Patches
 
-- **21/06/20**:- Added support for names with spaces
+-  **21/06/20**:- Added support for names with spaces
 
-- **07/07/20**:- Added support for shell aliases
+-  **07/07/20**:- Added support for shell aliases
 
-- **24/07/20**:- Added support for names with spaces in alias mode
+-  **24/07/20**:- Added support for names with spaces in alias mode
 
-- **03/08/20**:- Rewrote the shellscript in C
+-  **03/08/20**:- Rewrote the shellscript in C
 
 ## Contributors
 
-- [agnipau](https://github.com/agnipau)
+-  [agnipau](https://github.com/agnipau)
 
-- [HawaiinPizza](https://github.com/HawaiinPizza)
+-  [HawaiinPizza](https://github.com/HawaiinPizza)
 
-- [sbuller](https://github.com/sbuller)
+-  [sbuller](https://github.com/sbuller)
 
-- [AriaMoradi](https://github.com/AriaMoradi)
+-  [AriaMoradi](https://github.com/AriaMoradi)
 
-- [durcor](https://github.com/durcor)
+-  [durcor](https://github.com/durcor)
 
 ## TO-DOs
 
-- Authentic swallowing
+-  Authentic swallowing
 
 ---
 
