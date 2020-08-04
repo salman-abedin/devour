@@ -20,7 +20,7 @@ void fixpath(int argc, char* argv[], int i, char* upath) {
 void runcommand(int argc, char* argv[]) {
    char* cmd;
    int arglen = 1;
-   char* head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
+   char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
 
    arglen += strlen(head) + strlen(tail);
    for (int i = 1; i < argc; ++i)
@@ -57,7 +57,6 @@ int main(int argc, char* argv[]) {
    dis = XOpenDisplay(NULL);
    XMapWindow(dis, win);
    XCloseDisplay(dis);
-
 
    return 0;
 }
