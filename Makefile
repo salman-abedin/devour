@@ -2,7 +2,7 @@
 
 NAME    := devour
 
-CFLAGS   += -std=c99
+CFLAGS   += -Wall -std=c99 -pedantic
 LDLIBS   += -lX11
 
 BINPREFIX ?= /usr/local/bin
@@ -16,7 +16,7 @@ ${OBJ}: ${SRC}
 
 install:
 	@mkdir -p "${DESTDIR}${BINPREFIX}"
-	@cp -p ${NAME} "${DESTDIR}${BINPREFIX}"
+	@mv ${NAME} "${DESTDIR}${BINPREFIX}"
 	@echo Done moving the binary to ${DESTDIR}${BINPREFIX}
 uninstall:
 	@rm -f "${DESTDIR}${BINPREFIX}/${NAME}"
