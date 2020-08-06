@@ -1,19 +1,16 @@
-.POSIX:
-
-NAME    := devour
-
-CFLAGS   += -Wall -std=c99 -pedantic
-LDLIBS   += -lX11
-
-BINPREFIX ?= /usr/local/bin
+include config.mk
 
 OBJ := $(SRC:.c=.o)
 SRC := $(wildcard *.c)
 
-all: ${NAME}
+all: options ${NAME}
+options:
+	@echo ${NAME} build options:
+	@echo "CFLAGS = ${CFLAGS}"
+	@echo "LDLIBS = ${LDLIBS}"
+	@echo "CC     = ${CC}"
 ${NAME}: ${OBJ}
 ${OBJ}: ${SRC}
-
 install: all
 	@mkdir -p "${DESTDIR}${BINPREFIX}"
 	@mv ${NAME} "${DESTDIR}${BINPREFIX}"
@@ -25,4 +22,4 @@ clean:
 	@rm -f ${OBJ} ${NAME}
 	@echo Done cleaning the source
 
-.PHONY: all install uninstall clean
+.PHONY: all options install uninstall clean
