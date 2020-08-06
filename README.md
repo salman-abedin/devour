@@ -17,7 +17,7 @@ Devour was inspired by
 ## Installation
 
 ```sh
-git clone https://github.com/salman-abedin/devour.git && cd devour && make && sudo make install
+git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
 ## Usage

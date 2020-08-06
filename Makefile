@@ -14,7 +14,7 @@ all: ${NAME}
 ${NAME}: ${OBJ}
 ${OBJ}: ${SRC}
 
-install:
+install: all
 	@mkdir -p "${DESTDIR}${BINPREFIX}"
 	@mv ${NAME} "${DESTDIR}${BINPREFIX}"
 	@echo Done moving the binary to ${DESTDIR}${BINPREFIX}
