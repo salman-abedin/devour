@@ -7,7 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void fixpath(int argc, char* argv[], int i, char* upath) {
    for (; i < argc; ++i) {
       strcat(upath, argv[i]);
@@ -26,7 +25,7 @@ void runcommand(int argc, char* argv[]) {
    arglen += strlen(head) + strlen(tail);
    for (int i = 1; i < argc; ++i)
       arglen += 2 + strlen(argv[i]);
-   cmd = malloc(sizeof(char) * arglen);
+   cmd = calloc(arglen, sizeof(char));
 
    strcpy(cmd, head);
    for (int i = 1; i < argc; ++i) {
