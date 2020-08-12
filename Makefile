@@ -18,10 +18,7 @@ install: all
 	@mv $(NAME) "$(DESTDIR)$(BINPREFIX)"
 	@rm -f $(OBJ)
 	@echo Done moving the binary to ${DESTDIR}${BINPREFIX}
-clean:
-	@rm -f $(OBJ) $(NAME)
-	@echo Done cleaning the source
-uninstall: clean
+uninstall:
 	@rm -f "$(DESTDIR)$(BINPREFIX)/$(NAME)"
 	@echo Done removing the binary from ${DESTDIR}${BINPREFIX}
-.PHONY: all install uninstall clean
+.PHONY: all install uninstall
