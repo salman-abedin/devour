@@ -3,6 +3,8 @@
 Devour hides your terminal window before launching an external program and unhides it after quitting.  
 Devour was inspired by
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
+and a successor to
+[devour.sh](https://github.com/salman-abedin/devour.sh)
 
 ![](demo/preview.gif)
 
