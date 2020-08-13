@@ -24,7 +24,7 @@ void runcommand(int argc, char* argv[]) {
 
    arglen += strlen(head) + strlen(tail);
    for (int i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
-   cmd = calloc(arglen, sizeof(char));
+   cmd = calloc(arglen, (sizeof *cmd));
 
    strcpy(cmd, head);
    for (int i = 1; i < argc; ++i) {
