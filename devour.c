@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void fixpath(int argc, char* argv[], int i, char* upath) {
+void _fix_path(int argc, char** argv, int i, char* upath) {
    for (; i < argc; ++i) {
       strcat(upath, argv[i]);
       if (i != argc - 1)
@@ -17,19 +17,19 @@ void fixpath(int argc, char* argv[], int i, char* upath) {
    }
 }
 
-void runcommand(int argc, char* argv[]) {
+void run_command(int argc, char** argv) {
    char* cmd;
-   int arglen = 1;
+   int arglen = 1, i;
    char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
 
    arglen += strlen(head) + strlen(tail);
-   for (int i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
+   for (i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
    cmd = calloc(arglen, (sizeof *cmd));
 
    strcpy(cmd, head);
-   for (int i = 1; i < argc; ++i) {
+   for (i = 1; i < argc; ++i) {
       if (strcmp(argv[i], "--") == 0) {
-         fixpath(argc, argv, ++i, cmd);
+         _fix_path(argc, argv, ++i, cmd);
          break;
       }
       strcat(cmd, argv[i]);
@@ -41,7 +41,7 @@ void runcommand(int argc, char* argv[]) {
    free(cmd);
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char** argv) {
    int rev;
    Window win;
    Display* dis = XOpenDisplay(NULL);
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
    XGetInputFocus(dis, &win, &rev);
    XUnmapWindow(dis, win);
    XFlush(dis);
-   runcommand(argc, argv);
+   run_command(argc, argv);
    XMapWindow(dis, win);
    XCloseDisplay(dis);
    return 0;
