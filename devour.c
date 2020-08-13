@@ -23,8 +23,7 @@ void runcommand(int argc, char* argv[]) {
    char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
 
    arglen += strlen(head) + strlen(tail);
-   for (int i = 1; i < argc; ++i)
-      arglen += 2 + strlen(argv[i]);
+   for (int i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
    cmd = calloc(arglen, sizeof(char));
 
    strcpy(cmd, head);
