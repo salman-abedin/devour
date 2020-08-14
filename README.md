@@ -12,9 +12,9 @@ and a successor to
 
 [![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
-## Dependencies
+## Libraries
 
--  libx11 (X11 client-side library)
+-  libx11
 
 ## Installation
 
