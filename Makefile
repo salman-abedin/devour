@@ -8,8 +8,8 @@ LDLIBS = -lX11
 
 BINPREFIX = /usr/local/bin
 
-OBJ = $(SRC:.c=.o)
-SRC = $(wildcard *.c)
+OBJ = devour.h
+SRC = devour.c
 
 all: $(NAME)
 $(NAME): $(OBJ)
