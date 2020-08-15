@@ -18,15 +18,10 @@ void _fix_path(int argc, char** argv, int i, char* upath) {
 }
 
 void run_command(int argc, char** argv) {
-   char* cmd;
-   int arglen = 1, i;
-   char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
+   int i;
+   char cmd[1024];
 
-   arglen += strlen(head) + strlen(tail);
-   for (i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
-   cmd = calloc(arglen, (sizeof *cmd));
-
-   strcpy(cmd, head);
+   strcat(cmd, "$SHELL -i -c \"");
    for (i = 1; i < argc; ++i) {
       if (strcmp(argv[i], "--") == 0) {
          _fix_path(argc, argv, ++i, cmd);
@@ -35,10 +30,9 @@ void run_command(int argc, char** argv) {
       strcat(cmd, argv[i]);
       strcat(cmd, " ");
    }
-   strcat(cmd, tail);
+   strcat(cmd, "> /dev/null 2>&1; exit\"");
 
    system(cmd);
-   free(cmd);
 }
 
 int main(int argc, char** argv) {
