@@ -18,11 +18,12 @@ void _fix_path(int argc, char** argv, int i, char* upath) {
 }
 
 void run_command(int argc, char** argv) {
-   char* cmd;
-   int arglen = 1, i;
-   char *head = "$SHELL -i -c \"", *tail = "> /dev/null 2>&1; exit\"";
+   int arglen, i;
+   char *cmd, *head, *tail;
 
-   arglen += strlen(head) + strlen(tail);
+   head = "$SHELL -i -c \"";
+   tail = "> /dev/null 2>&1; exit\"";
+   arglen = strlen(head) + strlen(tail);
    for (i = 1; i < argc; ++i) arglen += 2 + strlen(argv[i]);
    cmd = calloc(arglen, (sizeof *cmd));
 

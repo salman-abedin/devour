@@ -8,7 +8,7 @@ LDLIBS = -lX11
 
 BINPREFIX = /usr/local/bin
 
-OBJ = devour.h
+OBJ = devour.o
 SRC = devour.c
 
 all: $(NAME)
