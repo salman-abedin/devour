@@ -3,12 +3,9 @@
  * window Manager agnostic swallowing feature for terminal emulators
  */
 
-
-
 #include <X11/Xlib.h>
 #include <stdlib.h>
 #include <string.h>
-
 
 void _fix_path(int argc, char** argv, int i, char* upath) {
       for (; i < argc; ++i) {
