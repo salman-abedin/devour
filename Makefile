@@ -8,8 +8,8 @@ LDLIBS = -lX11
 
 BINPREFIX = /usr/local/bin
 
-OBJ = devour.o
 SRC = devour.c
+OBJ = devour.o
 
 all: $(NAME)
 $(NAME): $(OBJ)
@@ -21,4 +21,4 @@ install: all
 uninstall:
 	@rm -f "$(DESTDIR)$(BINPREFIX)/$(NAME)"
 	@echo Done removing the binary from ${DESTDIR}${BINPREFIX}
-.PHONY: all install uninstall
+	.PHONY: all install uninstall
