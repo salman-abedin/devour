@@ -1,4 +1,4 @@
-# Devour: Window Manager agnostic swallowing feature for terminal emulators
+# Devour: Window Manager agnostic swallowing feature for X11
 
 Devour hides your terminal window before launching an external program and unhides it after quitting.  
 Devour was inspired by
@@ -12,9 +12,9 @@ and is a successor to
 
 [![](demo/youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
-## Libraries
+## Dependencies
 
--  libx11
+-  none
 
 ## Installation
 
