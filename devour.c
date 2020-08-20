@@ -36,7 +36,7 @@ void run_command(char** argv) {
 int main(int argc, char** argv) {
    int rev;
    Window win;
-   Display* dis = XOpenDisplay(NULL);
+   Display* dis = XOpenDisplay(0);
 
    XGetInputFocus(dis, &win, &rev);
    XUnmapWindow(dis, win);
