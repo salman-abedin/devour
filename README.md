@@ -24,7 +24,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ## Patches
 
--  **Shell aliases**
+-  **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
 
 ```sh
 patch < shell_alias.diff    # Add the feature
