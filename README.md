@@ -1,6 +1,6 @@
 # Devour: Window Manager agnostic swallowing feature for X11
 
-Devour hides your terminal window before launching an external program and unhides it after quitting.  
+Devour hides your current window before launching an external program and unhides it after quitting.  
 Devour was inspired by
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
 and is a successor to
