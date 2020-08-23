@@ -28,7 +28,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ```sh
 patch < shell_alias.diff    # Add the feature
-patch -R < shell_alias.diff # Remove the feature)
+patch -R < shell_alias.diff # Remove the feature
 ```
 
 ## Usage
