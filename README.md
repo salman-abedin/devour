@@ -27,6 +27,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 -  **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
 
 ```sh
+cd devour
 patch < shell_alias.diff    # Add the feature
 patch -R < shell_alias.diff # Remove the feature
 ```
@@ -57,12 +58,14 @@ Exec=/usr/local/bin/devour /usr/bin/zathura %U
 ## Update
 
 ```sh
+cd devour
 git pull --no-rebase && sudo make install
 ```
 
 ## Uninstallation
 
 ```sh
+cd devour
 sudo make uninstall
 ```
 
