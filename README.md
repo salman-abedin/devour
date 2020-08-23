@@ -75,6 +75,8 @@ sudo make uninstall
 
 -  **03/08/20**:- Rewrote the shellscript in C
 
+-  **23/08/20**:- Added patching support for added features
+
 ## Contributors
 
 -  [agnipau](https://github.com/agnipau)
