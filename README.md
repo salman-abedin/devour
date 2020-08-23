@@ -22,6 +22,10 @@ and is a successor to
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
+## Patches
+
+-  Shell aliases `patch < shell_alias.diff`
+
 ## Usage
 
 ```sh
@@ -57,7 +61,7 @@ git pull --no-rebase && sudo make install
 sudo make uninstall
 ```
 
-## Patches
+## Logs
 
 -  **21/06/20**:- Added support for names with spaces
 
