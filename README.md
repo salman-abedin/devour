@@ -22,6 +22,13 @@ and is a successor to
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
+## Usage
+
+```sh
+devour CMD/ALIAS ... SAFE FILE ...
+devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
+```
+
 ## Patches
 
 -  **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
@@ -30,13 +37,6 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 cd devour
 patch < shell_alias.diff    # Add the feature
 patch -R < shell_alias.diff # Remove the feature
-```
-
-## Usage
-
-```sh
-devour CMD/ALIAS ... SAFE FILE ...
-devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
 ```
 
 ## Pro Tip
