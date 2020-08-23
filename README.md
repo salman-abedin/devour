@@ -27,7 +27,8 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 -  **Shell aliases**
 
 ```sh
-patch < shell_alias.diff
+patch < shell_alias.diff    # Add the feature
+patch -R < shell_alias.diff # Reverse the patch (i.e. remove the feature)
 ```
 
 ## Usage
