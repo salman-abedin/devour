@@ -22,6 +22,12 @@ and is a successor to
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
+## Update
+
+```sh
+git pull --no-rebase && sudo make install
+```
+
 ## Usage
 
 ```sh
