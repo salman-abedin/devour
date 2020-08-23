@@ -24,7 +24,11 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 
 ## Patches
 
--  Shell aliases `patch < shell_alias.diff`
+-  **Shell aliases**
+
+```sh
+patch < shell_alias.diff
+```
 
 ## Usage
 
