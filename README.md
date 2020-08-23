@@ -1,6 +1,6 @@
 # Devour: Window Manager agnostic swallowing feature for X11
 
-Devour hides your terminal window before launching an external program and unhides it after quitting.  
+Devour hides your current window before launching an external program and unhides it after quitting.  
 Devour was inspired by
 [sw](https://github.com/ronniedroid/.dotfiles/blob/master/Scripts/sw)
 and is a successor to
@@ -12,9 +12,9 @@ and is a successor to
 
 [![](youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
-## Dependencies
+## Libraries
 
--  none
+-  Xlib (client-side header files)
 
 ## Installation
 
@@ -25,8 +25,19 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour CMD/ALIAS ... SAFE FILE ...
-devour CMD/ALIAS ... -- SAFE FILE/UNSAFE FILE
+devour CMD ... SAFE FILE ...
+devour CMD ... -- SAFE FILE/UNSAFE FILE
+```
+
+## Patches
+
+-  **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
+
+```sh
+cd devour
+patch < devour-shellalias-10.0.diff    # Add the feature
+patch -R < devour-shellalias-10.0.diff # Remove the feature
+sudo make install                      # Reinstall
 ```
 
 ## Pro Tip
@@ -48,16 +59,18 @@ Exec=/usr/local/bin/devour /usr/bin/zathura %U
 ## Update
 
 ```sh
+cd devour
 git pull --no-rebase && sudo make install
 ```
 
 ## Uninstallation
 
 ```sh
+cd devour
 sudo make uninstall
 ```
 
-## Patches
+## Logs
 
 -  **21/06/20**:- Added support for names with spaces
 
@@ -66,6 +79,8 @@ sudo make uninstall
 -  **24/07/20**:- Added support for names with spaces in alias mode
 
 -  **03/08/20**:- Rewrote the shellscript in C
+
+-  **23/08/20**:- Added patching support for added features
 
 ## Contributors
 
