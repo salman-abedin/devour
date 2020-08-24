@@ -12,9 +12,9 @@ and is a successor to
 
 [![](youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
-## Dependencies
+## Libraries
 
--  none
+-  Xlib (client side header files)
 
 ## Installation
 
