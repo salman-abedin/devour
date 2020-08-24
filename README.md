@@ -14,7 +14,7 @@ and is a successor to
 
 ## Libraries
 
--  Xlib (client side header files)
+-  Xlib (client-side header files)
 
 ## Installation
 
