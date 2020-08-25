@@ -35,8 +35,8 @@ devour CMD ... -- SAFE FILE/UNSAFE FILE
 
 ```sh
 cd devour
-patch < shell_alias.diff    # Add the feature
-patch -R < shell_alias.diff # Remove the feature
+patch < devour-shellalias-10.0.diff    # Add the feature
+patch -R < devour-shellalias-10.0.diff # Remove the feature
 ```
 
 ## Pro Tip
