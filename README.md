@@ -37,6 +37,7 @@ devour CMD ... -- SAFE FILE/UNSAFE FILE
 cd devour
 patch < devour-shellalias-10.0.diff    # Add the feature
 patch -R < devour-shellalias-10.0.diff # Remove the feature
+sudo make install                      # Reinstall
 ```
 
 ## Pro Tip
