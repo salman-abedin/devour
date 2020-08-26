@@ -8,15 +8,10 @@
 #include <string.h>
 
 void run_command(char** argv) {
-   int is_safe = 1;
    char cmd[512] = {0};
 
    while (*++argv) {
-      if (!strcmp(*argv, "--")) {
-         is_safe = 0;
-         continue;
-      }
-      if (is_safe) {
+      if (!strstr(*argv, " ")) {
          strcat(cmd, *argv);
       } else {
          while (**argv) {

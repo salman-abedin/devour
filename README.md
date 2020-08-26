@@ -25,8 +25,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour CMD ... SAFE FILE ...
-devour CMD ... -- SAFE FILE/UNSAFE FILE
+devour CMD ...
 ```
 
 ## Patches
