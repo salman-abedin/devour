@@ -11,14 +11,13 @@ void run_command(char** argv) {
    char cmd[512] = {0};
 
    while (*++argv) {
-      if (!strstr(*argv, " ")) {
-         strcat(cmd, *argv);
-      } else {
+      if (strstr(*argv, " ")) {
          while (**argv) {
             if (**argv == ' ') strcat(cmd, "\\");
             strncat(cmd, &*(*argv)++, 1);
          }
-      }
+      } else
+         strcat(cmd, *argv);
       strcat(cmd, " ");
    }
    system(cmd);
