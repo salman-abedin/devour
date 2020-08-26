@@ -8,7 +8,7 @@
 #include <string.h>
 
 void run_command(char** argv) {
-   char cmd[512] = {0};
+   char cmd[1024] = {0};
 
    while (*++argv) {
       if (strstr(*argv, " "))
