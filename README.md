@@ -1,4 +1,4 @@
-# Devour: Window Manager agnostic swallowing feature for X11
+# Devour: X11 Window Swallower
 
 Devour hides your current window before launching an external program and unhides it after quitting.  
 Devour was inspired by
@@ -25,8 +25,7 @@ git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make 
 ## Usage
 
 ```sh
-devour CMD ... SAFE FILE ...
-devour CMD ... -- SAFE FILE/UNSAFE FILE
+devour CMD ...
 ```
 
 ## Patches
@@ -35,8 +34,8 @@ devour CMD ... -- SAFE FILE/UNSAFE FILE
 
 ```sh
 cd devour
-patch < devour-shellalias-10.0.diff    # Add the feature
-patch -R < devour-shellalias-10.0.diff # Remove the feature
+patch -s < devour-shellalias-10.0.diff    # Add the feature
+patch -s -R < devour-shellalias-10.0.diff # Remove the feature
 sudo make install                      # Reinstall
 ```
 
@@ -76,13 +75,14 @@ sudo make uninstall
 
 -  **07/07/20**:- Added support for shell aliases
 
--  **24/07/20**:- Added support for names with spaces in alias mode
-
 -  **03/08/20**:- Rewrote the shellscript in C
 
--  **23/08/20**:- Added patching support for added features
+-  **23/08/20**:- Made additional features optional using patching
 
 ## Contributors
+
+
+-  keni7385 (AUR package submitter/maintainer)
 
 -  [agnipau](https://github.com/agnipau)
 
@@ -100,7 +100,7 @@ sudo make uninstall
 
 ---
 
-## Repos you might be interested in
+## Shameful Plug
 
 | Name                                                    | Description                     |
 | ------------------------------------------------------- | ------------------------------- |
