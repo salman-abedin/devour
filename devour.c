@@ -11,12 +11,12 @@ void run_command(char** argv) {
    char cmd[512] = {0};
 
    while (*++argv) {
-      if (strstr(*argv, " ")) {
+      if (strstr(*argv, " "))
          while (**argv) {
             if (**argv == ' ') strcat(cmd, "\\");
             strncat(cmd, &*(*argv)++, 1);
          }
-      } else
+      else
          strcat(cmd, *argv);
       strcat(cmd, " ");
    }
@@ -34,5 +34,7 @@ int main(int argc, char** argv) {
    run_command(argv);
    XMapWindow(dis, win);
    XCloseDisplay(dis);
+
+   (void)argc;
    return 0;
 }
