@@ -1,7 +1,7 @@
 .POSIX:
 
 NAME    = devour
-VERSION = 10.0
+VERSION = 11.0
 
 CC     = cc
 CFLAGS = -std=c11 -D_POSIX_C_SOURCE=200809L -Wall -Wextra -pedantic -O2
