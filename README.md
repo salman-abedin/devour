@@ -75,11 +75,9 @@ sudo make uninstall
 
 -  **07/07/20**:- Added support for shell aliases
 
--  **24/07/20**:- Added support for names with spaces in alias mode
-
 -  **03/08/20**:- Rewrote the shellscript in C
 
--  **23/08/20**:- Added patching support for added features
+-  **23/08/20**:- Made additional features optional using patching
 
 ## Contributors
 
