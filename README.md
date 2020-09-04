@@ -1,4 +1,6 @@
-# Devour: Window Manager agnostic swallowing feature for X11
+<!--- # Devour: Window Manager agnostic swallowing feature for X11 -->
+<h1 align=center>Devour</h1>
+<p align=center>X11 window swallower</p>
 
 Devour hides your current window before launching an external program and unhides it after quitting.  
 Devour was inspired by
