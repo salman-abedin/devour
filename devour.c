@@ -7,13 +7,15 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define ESACPE "`~!#$^&*()[]{}\\|;\'\"<>/? "
+
 void run_command(char** argv) {
    char cmd[1024] = {0};
 
    while (*++argv) {
       if (strstr(*argv, " "))
          while (**argv) {
-            if (**argv == ' ') strcat(cmd, "\\");
+            if (strchr(ESACPE, **argv)) strcat(cmd, "\\");
             strncat(cmd, &*(*argv)++, 1);
          }
       else
