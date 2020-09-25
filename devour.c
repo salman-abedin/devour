@@ -7,18 +7,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define ESACPE "`~!#$^&*()[]{}\\|;\'\"<>/? "
+/* #define ESACPE "`~!#$^&*()[]{}\\|;\'\"<>/? " */
+/* #define ESACPE "`'\"()[]& " */
+#define ESACPE " "
 
 void run_command(char** argv) {
    char cmd[1024] = {0};
 
    while (*++argv) {
-      if (strstr(*argv, " "))
+      if (strchr(ESACPE, **argv)) {
+system("ns yo");
          while (**argv) {
-            if (strchr(ESACPE, **argv)) strcat(cmd, "\\");
+            /* if (strchr(ESACPE, **argv)) system("ns yo"); */
+            /* if (strchr(ESACPE, **argv)) strcat(cmd, "\\"); */
             strncat(cmd, &*(*argv)++, 1);
          }
-      else
+      } else
          strcat(cmd, *argv);
       strcat(cmd, " ");
    }
