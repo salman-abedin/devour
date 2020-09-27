@@ -97,7 +97,7 @@ sudo make uninstall
 
 ---
 
-## Repos you might be interested in
+## Shameful Plug
 
 | Name                                                    | Description                     |
 | ------------------------------------------------------- | ------------------------------- |
