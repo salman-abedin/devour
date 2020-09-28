@@ -16,7 +16,7 @@ void run_command(char** argv) {
 
    while (*++argv) {
       if (strchr(ESACPE, **argv)) {
-system("ns yo");
+         /* system("ns yo"); */
          while (**argv) {
             /* if (strchr(ESACPE, **argv)) system("ns yo"); */
             /* if (strchr(ESACPE, **argv)) strcat(cmd, "\\"); */
