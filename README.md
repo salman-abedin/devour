@@ -81,6 +81,8 @@ sudo make uninstall
 
 ## Contributors
 
+-  keni7385 (AUR package submitter/maintainer)
+
 -  [agnipau](https://github.com/agnipau)
 
 -  [HawaiinPizza](https://github.com/HawaiinPizza)
