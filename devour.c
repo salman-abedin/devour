@@ -7,32 +7,42 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 /* #define ESACPE "`~!#$^&*()[]{}\\|;\'\"<>/? " */
 /* #define ESACPE "`'\"()[]& " */
-/* #define ESACPE "y" */
+#define ESACPE "`'\"()[]& "
 
 void run_command(char **argv) {
+  char argc;
+  char *arg;
   char cmd[1024] = {0};
+  int is_unsafe = 0;
 
-  while (*++argv) {
+  /* while ((arg = *++argv)) { */
+  /* if (strchr(ESACPE, *arg)) { */
+  /*   printf("exist\n"); */
+  /* } else */
+  /*   strcat(cmd, *argv); */
+  /* strcat(cmd, " "); */
+  /* } */
+  /* strcat(cmd, ">/dev/null 2>&1"); */
+  /* system(cmd); */
 
-    /* if (strchr(ESACPE, **argv)) { */
-    /* system("ns yo"); */
-    /* while (**argv) { */
-    /* if (strchr(ESACPE, **argv)) { */
-    /* system("ns yo"); */
-    /* strcat(cmd, "\\"); */
-    /* } */
-    /* strncat(cmd, &*(*argv)++, 1); */
-    /* } */
-    /* } else */
-    /* strcat(cmd, *argv); */
-
-    strcat(cmd, *argv);
+  while ((arg = *++argv)) {
+    while ((argc = *arg++))
+      if (strchr(ESACPE, argc))
+        is_unsafe = 1;
+    if (is_unsafe) {
+      strcat(cmd, "'");
+      strcat(cmd, *argv);
+      strcat(cmd, "'");
+    } else
+      strcat(cmd, *argv);
     strcat(cmd, " ");
   }
-  system(cmd);
+  printf("%s", cmd);
+  /* system(cmd); */
 }
 
 int main(int argc, char **argv) {
