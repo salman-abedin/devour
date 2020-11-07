@@ -4,45 +4,25 @@
  */
 
 #include <X11/Xlib.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 
-/* #define ESACPE "`~!#$^&*()[]{}\\|;\'\"<>/? " */
-/* #define ESACPE "`'\"()[]& " */
-#define ESACPE "`'\"()[]& "
+#define UNSAFE_CHARS "`\"'()[]& "
 
 void run_command(char **argv) {
-  char argc;
+  char arg_char;
   char *arg;
   char cmd[1024] = {0};
-  int is_unsafe = 0;
-
-  /* while ((arg = *++argv)) { */
-  /* if (strchr(ESACPE, *arg)) { */
-  /*   printf("exist\n"); */
-  /* } else */
-  /*   strcat(cmd, *argv); */
-  /* strcat(cmd, " "); */
-  /* } */
-  /* strcat(cmd, ">/dev/null 2>&1"); */
-  /* system(cmd); */
 
   while ((arg = *++argv)) {
-    while ((argc = *arg++))
-      if (strchr(ESACPE, argc))
-        is_unsafe = 1;
-    if (is_unsafe) {
-      strcat(cmd, "'");
-      strcat(cmd, *argv);
-      strcat(cmd, "'");
-    } else
-      strcat(cmd, *argv);
+    while ((arg_char = *arg++)) {
+      if (strchr(UNSAFE_CHARS, arg_char))
+        strcat(cmd, "\\");
+      strncat(cmd, &arg_char, 1);
+    }
     strcat(cmd, " ");
   }
-  printf("%s", cmd);
-  /* system(cmd); */
+  system(cmd);
 }
 
 int main(int argc, char **argv) {

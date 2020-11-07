@@ -79,8 +79,9 @@ sudo make uninstall
 
 -  **23/08/20**:- Made additional features optional using patching
 
-## Contributors
+-  **08/11/20**:- Added support for all unsafe characters
 
+## Contributors
 
 -  keni7385 (AUR package submitter/maintainer)
 
