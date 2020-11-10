@@ -34,10 +34,12 @@ devour CMD ...
 
 ```sh
 cd devour
-patch -s < devour-shellalias-10.0.diff    # Add the feature
-patch -s -R < devour-shellalias-10.0.diff # Remove the feature
+patch -s < devour-shellalias-12.diff    # Add the feature
+patch -s -R < devour-shellalias-12.diff # Remove the feature
 sudo make install                      # Reinstall
 ```
+
+Use `devour-shellalias-10.0.diff` for previous versions of `devour`.
 
 ## Pro Tip
 
