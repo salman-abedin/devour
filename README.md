@@ -18,6 +18,16 @@ and is a successor to
 
 ## Installation
 
+#### AUR
+
+```sh
+yay -S --noconfirm devour
+# or
+yay -S --noconfirm devour-git # Nightly
+```
+
+#### Git
+
 ```sh
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
@@ -110,7 +120,6 @@ sudo make uninstall
 | [uniblocks](https://github.com/salman-abedin/uniblocks) | The status bar wrapper             |
 | [tide](https://github.com/salman-abedin/tide)           | Minimal Transmission CLI client    |
 | [puri](https://github.com/salman-abedin/puri)           | Minimal URL launcher               |
-| [crystal](https://github.com/salman-abedin/crystal)     | The transparent setup              |
 | [Magpie](https://github.com/salman-abedin/magpie)       | The dotfiles                       |
 | [Alfred](https://github.com/salman-abedin/alfred)       | The scripts                        |
 
