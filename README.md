@@ -6,15 +6,15 @@ Devour was inspired by
 and is a successor to
 [devour.sh](https://github.com/salman-abedin/devour.sh)
 
-![](preview.gif)
+![](https://gitlab.com/salman-abedin/assets/-/raw/master/devour.gif)
 
 # Demonstration done by [DistroTube](https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg)
 
-[![](youtube.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
+[![](https://gitlab.com/salman-abedin/assets/-/raw/master/devour-dt.png)](https://www.youtube.com/watch?v=mBNLzHcUtTo&t=5m22s)
 
 ## Dependencies
 
--  Xlib (client-side header files)
+- Xlib (client-side header files)
 
 ## Installation
 
@@ -40,7 +40,7 @@ devour CMD ...
 
 ## Patches
 
--  **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
+- **Shell aliases**. (ex. `devour z FILE` instead of `devour zathura FILE`)
 
 ```sh
 cd devour
@@ -81,33 +81,33 @@ sudo make uninstall
 
 ## Logs
 
--  **21/06/20**:- Added support for names with spaces
+- **21/06/20**:- Added support for names with spaces
 
--  **07/07/20**:- Added support for shell aliases
+- **07/07/20**:- Added support for shell aliases
 
--  **03/08/20**:- Rewrote the shellscript in C
+- **03/08/20**:- Rewrote the shellscript in C
 
--  **23/08/20**:- Made additional features optional using patching
+- **23/08/20**:- Made additional features optional using patching
 
--  **08/11/20**:- Added support for all unsafe characters
+- **08/11/20**:- Added support for all unsafe characters
 
 ## Contributors
 
--  keni7385 (AUR package submitter/maintainer)
+- keni7385 (AUR package submitter/maintainer)
 
--  [agnipau](https://github.com/agnipau)
+- [agnipau](https://github.com/agnipau)
 
--  [HawaiinPizza](https://github.com/HawaiinPizza)
+- [HawaiinPizza](https://github.com/HawaiinPizza)
 
--  [sbuller](https://github.com/sbuller)
+- [sbuller](https://github.com/sbuller)
 
--  [AriaMoradi](https://github.com/AriaMoradi)
+- [AriaMoradi](https://github.com/AriaMoradi)
 
--  [durcor](https://github.com/durcor)
+- [durcor](https://github.com/durcor)
 
 ## TO-DOs
 
--  Authentic swallowing
+- Authentic swallowing
 
 ---
 
