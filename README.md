@@ -31,6 +31,11 @@ yay -S --noconfirm devour-git # Nightly
 ```sh
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
+## Add auto-completion of commands to your bash
+
+```sh
+echo "complete -c devour" >> ~/.bashrc
+```
 
 ## Usage
 
