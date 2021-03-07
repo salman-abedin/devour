@@ -83,6 +83,7 @@ sudo make uninstall
 ```
 
 ## Logs
+-  **07/03/21**:- Added support to compile on BSD
 
 -  **21/06/20**:- Added support for names with spaces
 
