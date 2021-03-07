@@ -32,6 +32,9 @@ yay -S --noconfirm devour-git # Nightly
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
+## BSD
+uncomment the Makefile where indicated before running ```sudo make install```
+
 ## Usage
 
 ```sh
