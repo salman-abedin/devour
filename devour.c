@@ -11,7 +11,7 @@
 
 long int arglen(int argc, char **argv) {
   long int total = 0;
-  for (int i = 0; i < argc; i++) {
+  for (int i = 1; i < argc; i++) {
     total += strlen(argv[i]);
   }
   return total;
