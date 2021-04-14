@@ -9,10 +9,18 @@
 
 #define UNSAFE_CHARS "`\"'()[]& "
 
-void run_command(char **argv) {
+long int arglen(int argc, char **argv) {
+  long int total = 0;
+  for (int i = 1; i < argc; i++) {
+    total += strlen(argv[i]);
+  }
+  return total;
+}
+
+void run_command(int argc, char **argv) {
   char arg_char;
   char *arg;
-  char cmd[1024] = {0};
+  char* cmd = malloc(arglen(argc, argv) * sizeof(0));
 
   while ((arg = *++argv)) {
     while ((arg_char = *arg++)) {
@@ -23,6 +31,7 @@ void run_command(char **argv) {
     strcat(cmd, " ");
   }
   system(cmd);
+  free(cmd);
 }
 
 int main(int argc, char **argv) {
@@ -33,7 +42,7 @@ int main(int argc, char **argv) {
   XGetInputFocus(dis, &win, &rev);
   XUnmapWindow(dis, win);
   XFlush(dis);
-  run_command(argv);
+  run_command(argc, argv);
   XMapWindow(dis, win);
   XCloseDisplay(dis);
 
