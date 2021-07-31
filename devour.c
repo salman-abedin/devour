@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define UNSAFE_CHARS "`\"'()[]& "
+#define UNSAFE_CHARS "`\"'()[]&< "
 
 void run_command(char **argv) {
   char arg_char;
