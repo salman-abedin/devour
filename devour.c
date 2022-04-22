@@ -27,13 +27,21 @@ void run_command(char **argv) {
 
 int main(int argc, char **argv) {
   int rev;
-  Window win;
+  unsigned nc;
+  Window win, root, *ch;
   Display *dis = XOpenDisplay(0);
 
   XGetInputFocus(dis, &win, &rev);
+
+  /* This is to ensure correct behavior with an embeded terminal window e.g. using Suckless' tabbed */
+  if(rev == RevertToParent)
+    XQueryTree(dis, win, &root, &win, &ch, &nc);
+
   XUnmapWindow(dis, win);
   XFlush(dis);
+
   run_command(argv);
+
   XMapWindow(dis, win);
   XCloseDisplay(dis);
 
