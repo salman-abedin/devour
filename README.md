@@ -32,6 +32,9 @@ yay -S --noconfirm devour-git # Nightly
 git clone https://github.com/salman-abedin/devour.git && cd devour && sudo make install
 ```
 
+## BSD
+uncomment the Makefile where indicated before running ```sudo make install```
+
 ## Usage
 
 ```sh
@@ -80,6 +83,7 @@ sudo make uninstall
 ```
 
 ## Logs
+-  **07/03/21**:- Added support to compile on BSD
 
 - **21/06/20**:- Added support for names with spaces
 
